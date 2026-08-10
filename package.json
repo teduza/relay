@@ -1,0 +1,15 @@
+{
+  "name": "privatemesh-relay",
+  "version": "1.0.0",
+  "description": "Blind ciphertext relay for PrivateMesh — forwards encrypted blobs between two clients, never sees plaintext, stores nothing long-term.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}
